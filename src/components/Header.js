@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Header.css';
+import { Container, Navbar, Nav, Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => (
   <header className="header">
@@ -9,6 +11,7 @@ const Header = () => (
       <Link to="/about">About</Link>
       <Link to="/services">Services</Link>
       <Link to="/contact">Contact</Link>
+      
     </nav>
   </header>
 );
